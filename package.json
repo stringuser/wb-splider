@@ -1,0 +1,18 @@
+{
+  "name": "weibo-spider",
+  "version": "1.0.0",
+  "description": "微博爬虫",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "爬虫"
+  ],
+  "author": "zsj",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "log4js": "^6.1.2"
+  }
+}
