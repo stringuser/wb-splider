@@ -46,7 +46,7 @@ let excels = function (data, excelName) {
   }
 
   // save workbook to disk
-  workbook.xlsx.writeFile(excelName).then(function () {
+  workbook.xlsx.writeFile('./excel_file/' + excelName).then(function () {
     console.log("---saved---");
   });
 }
